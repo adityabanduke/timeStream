@@ -39,7 +39,7 @@ Certainly! Below is a README file template for your backend task. Adjust it base
 
 ---
 
-# Backend Task
+## Backend Task
 
 ## Project Overview
 
@@ -47,12 +47,12 @@ This project implements a CRUD API to manage a list of compounds and their detai
 
 ## API Endpoints
 
-router.post("/addCompound", addCompound);
-router.get("/getCompounds", getCompounds);
-router.get("/getCompound/:id", getCompound);
-router.put("/updateCompound/:id", updateCompound);
-router.delete("/deleteCompound/:id", deleteCompound);
-router.get("/getLimitedCompounds", getLimitedCompounds);
+#### router.post("/addCompound", addCompound);
+#### router.get("/getCompounds", getCompounds);
+#### router.get("/getCompound/:id", getCompound);
+#### router.put("/updateCompound/:id", updateCompound);
+#### router.delete("/deleteCompound/:id", deleteCompound);
+#### router.get("/getLimitedCompounds", getLimitedCompounds);
 
 ### ThankYou
 
